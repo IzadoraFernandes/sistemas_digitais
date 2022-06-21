@@ -1,4 +1,3 @@
-import numpy as np
 
 dicionario = {
     "caso1":"(A'.B'.C')", "caso2": "(A'.B'.C)","caso3":"(A'.B.C')", "caso4": "(A'.B.C)", 
@@ -23,6 +22,24 @@ linha8 = input("digite o resutado para a 8° linha ")
 matriz_x =  ["S", linha1, linha2, linha3, linha4, linha5, linha6, linha7, linha8 ]
 matrix = [matriz_a, matriz_b, matriz_c, matriz_x]
 resultado= []
+
+#PEDIR UM NOVO VALOR QUANDO O NÚMERO DIGITADO FOR != 1 AND !=0
+while linha1 != 1 and linha1 !=0:
+    linha1 = input("digite o resutado para a 1° linha: SOMENTO 1 OU 0 ")
+while linha2 != 1 and linha2 !=0:
+    linha1 = input("digite o resutado para a 2° linha: SOMENTO 1 OU 0 ")
+while linha3 != 1 and linha3 !=0:
+    linha1 = input("digite o resutado para a 3° linha: SOMENTO 1 OU 0 ")
+while linha4 != 1 and linha4 !=0:
+    linha1 = input("digite o resutado para a 4° linha: SOMENTO 1 OU 0 ")
+while linha5 != 1 and linha5 !=0:
+    linha1 = input("digite o resutado para a 5° linha: SOMENTO 1 OU 0 ")
+while linha6 != 1 and linha6 !=0:
+    linha1 = input("digite o resutado para a 6° linha: SOMENTO 1 OU 0 ")
+while linha7 != 1 and linha7 !=0:
+    linha1 = input("digite o resutado para a 7° linha: SOMENTO 1 OU 0 ")
+while linha8 != 1 and linha8 !=0:
+    linha1 = input("digite o resutado para a 8° linha: SOMENTO 1 OU 0 ")
 
 
 if '1' in linha1:
